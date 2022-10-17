@@ -35,7 +35,7 @@ int main()
         printf("\n");
     }
 
-    //Adding elements to sparse representation
+    //  sparse representation
 
 
   int   k=1;
