@@ -22,7 +22,7 @@ avail++;
 }
 void print(int start,int finish)
 {   int i;
-    for(i=start;i<=finish;i++)
+    for(i=start;i<finish;i++)
     {
       printf("%d x^%d + ",terms[i].coeff,terms[i].expo);
     }
@@ -107,8 +107,8 @@ finishB=size2+size1-1;
  //startD=size2+size1;
  //finishD=startD;
  avail=size1+size2;
- printf(" start d is %d\n",startD);
-printf(" finish d is %d\n",finishD);
+ //printf(" start d is %d\n",startD);
+//printf(" finish d is %d\n",finishD);
 printf("Enter the coefficent and exponent of polynomial 1 in the decreasing order of exponents");
 for(int i=startA;i<=finishA;i++)
 {
