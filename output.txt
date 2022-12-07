@@ -1,0 +1,54 @@
+mec@debian:~$ cd exam 
+mec@debian:~/exam$ ls
+a.out  delete_alternate.txt  delete.c
+mec@debian:~/exam$ gcc delete.c
+mec@debian:~/exam$ ./a.out 
+
+
+*************MAIN MENU********
+
+ 
+ 1. ADD NEW NODE  
+ 2.DELETE ALTERNATE NODES
+ 3.DISPLAY 
+
+Enter your choice
+1
+
+ Enter the item /data to add to the linked list  
+3
+
+ NODE INSERTED 
+0printing 
+
+*************MAIN MENU********
+
+ 
+ 1. ADD NEW NODE  
+ 2.DELETE ALTERNATE NODES
+ 3.DISPLAY 
+
+Enter your choice
+1
+
+ Enter the item /data to add to the linked list  
+6
+
+ NODE INSERTED 
+0printing 
+
+*************MAIN MENU********
+
+ 
+ 1. ADD NEW NODE  
+ 2.DELETE ALTERNATE NODES
+ 3.DISPLAY 
+
+Enter your choice
+3
+
+LINKED LIST  
+-------------------
+Segmentation fault
+mec@debian:~/exam$ 
+
